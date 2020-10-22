@@ -15,7 +15,7 @@
 
 	body {
 		/* min-width: (containers) */
-		min-width: 1200px;
+		min-width: 1000px;
 	}
 
 	.container {
@@ -23,7 +23,7 @@
 		margin-right: auto;
 
 		/* width: (containers) */
-		width: 1200px;
+		width: 1000px;
 	}
 
 	/* Modifiers */
