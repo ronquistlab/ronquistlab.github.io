@@ -15,10 +15,13 @@
 
 	body {
 		/* min-width: (containers) */
-		min-width: 1000px;
+		
+		min-width: 1200px;
+		width: 1400px;
+
 	}
 
-	.container {
+	.container {441eef32ffb2e76481653f32027072e2d28e85cc
 		margin-left: auto;
 		margin-right: auto;
 
@@ -105,7 +108,7 @@
 				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
 				padding: 0 0 0 4em;
 			}
-
+441eef32ffb2e76481653f32027072e2d28e85cc
 			.row {
 				/* margin-left: -(gutters.vertical) */
 				margin-left: -4em;
