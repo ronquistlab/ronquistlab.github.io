@@ -491,7 +491,7 @@
 		.image.portrait {
 			border-radius: 6px;
 			clear: both;
-			float: none;
+			float: left;
 			margin-right: 50px;
 			display: table-cell;
 			vertical-align: middle;
