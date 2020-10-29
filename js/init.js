@@ -26,16 +26,15 @@
 				},
 
 			// XLarge.
-		//		xlarge: {
-		//			range: '-1680',
-		//			href: '{{ site.baseurl }}/css/style-xlarge.css',
-		//			containers: 1200
+				xlarge: {
+					range: '-1680',
+					href: '{{ site.baseurl }}/css/style-xlarge.css',
+					containers: 1200
 				},
 
 			// Large.
 				large: {
-		//			range: '-1280',
-					range: '-1680',
+					range: '-1280',
 					href: '{{ site.baseurl }}/css/style-large.css',
 					containers: 960,
 					grid: {
