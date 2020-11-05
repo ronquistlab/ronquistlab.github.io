@@ -1016,20 +1016,25 @@
 				right: 0;
 			}
 
-/* Banner */
-
-	#banner {
-		background-color: #996666;
-		background-image: url("../images/hymenoptera.jpg");
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		color: #996666;
-		padding: 14em 0;
-		text-align: center;
-		position: relative;
-	}
-
+			/* Banner */
+			
+			#banner {
+			    background-color: #996666;
+			    background-image: url("../images/hymenoptera.jpg");
+			    background-size: cover;
+			    background-position: center center;
+			    background-repeat: no-repeat;
+			    color: #996666;
+			    padding: 14em 0;
+			    text-align: center;
+			    position: relative;
+			    width: 1400px;
+			    margin-left: auto;
+			    margin-right: auto;
+			}
+			
+}
+ 
 	#banner-people {
 		background-color: #666666;
 		background-image: url("../images/lab-group.jpg");
