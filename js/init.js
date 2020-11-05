@@ -51,7 +51,7 @@
 				medium: {
 					range: '-980',
 					href: '{{ site.baseurl }}/css/style-medium.css',
-					containers: '90%',
+					containers: '50%',
 					grid: {
 						collapse: 1
 					}
