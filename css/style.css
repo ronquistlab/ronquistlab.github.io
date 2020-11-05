@@ -1035,17 +1035,20 @@
 			
 }
  
-	#banner-people {
-		background-color: #666666;
-		background-image: url("../images/lab-group.jpg");
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		color: #d8d8d8;
-		padding: 14em 0;
-		text-align: center;
-		position: relative;
-	}
+ #banner-people {
+     background-color: #666666;
+     background-image: url("../images/lab-group.jpg");
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     color: #d8d8d8;
+     padding: 14em 0;
+     text-align: center;
+     position: relative;
+     width: 1400px;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
 	#banner-projects {
 		background-color: #666666;
