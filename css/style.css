@@ -1060,6 +1060,7 @@ input[type="button"]:disabled,
     padding: 14em 0;
     text-align: center;
     position: relative;
+    width: 1400px;
 }
 
 #banner-publications {
