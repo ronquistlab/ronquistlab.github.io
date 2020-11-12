@@ -1087,6 +1087,9 @@ input[type="button"]:disabled,
     padding: 14em 0;
     text-align: center;
     position: relative;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #banner-positions {
