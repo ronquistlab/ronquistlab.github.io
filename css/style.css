@@ -1020,7 +1020,7 @@ input[type="button"]:disabled,
 
 #banner {
     background-color: #996666;
-    background-image: url("../images/hymenoptera.jpg");
+    background-image: url("../images/lab.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1029,7 +1029,7 @@ input[type="button"]:disabled,
     text-align: center;
     position: relative;
     width: 1400px;
-    height: 600px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
