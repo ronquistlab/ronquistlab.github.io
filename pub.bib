@@ -1,95 +1,12 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Emma Granqvist at 2023-09-13 13:03:26 +0200 
+%% Created for Emma Granqvist at 2022-05-05 11:00:29 +0200 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
-
-@article{10.1093/sysbio/syad045,
-	abstract = {{Bayesian phylogenetics is now facing a critical point. Over the last 20 years, Bayesian methods have reshaped phylogenetic inference and gained widespread popularity due to their high accuracy, the ability to quantify the uncertainty of inferences and the possibility of accommodating multiple aspects of evolutionary processes in the models that are used. Unfortunately, Bayesian methods are computationally expensive, and typical applications involve at most a few hundred sequences. This is problematic in the age of rapidly expanding genomic data and increasing scope of evolutionary analyses, forcing researchers to resort to less accurate but faster methods, such as maximum parsimony and maximum likelihood. Does this spell doom for Bayesian methods? Not necessarily. Here, we discuss some recently proposed approaches that could help scale up Bayesian analyses of evolutionary problems considerably. We focus on two particular aspects: online phylogenetics, where new data sequences are added to existing analyses, and alternatives to Markov chain Monte Carlo (MCMC) for scalable Bayesian inference. We identify 5 specific challenges and discuss how they might be overcome. We believe that online phylogenetic approaches and Sequential Monte Carlo hold great promise and could potentially speed up tree inference by orders of magnitude. We call for collaborative efforts to speed up the development of methods for real-time tree expansion through online phylogenetics.}},
-	author = {Truszkowski, Jakub and Perrigo, Allison and Broman, David and Ronquist, Fredrik and Antonelli, Alexandre},
-	date-added = {2023-09-13 13:03:24 +0200},
-	date-modified = {2023-09-13 13:03:24 +0200},
-	doi = {10.1093/sysbio/syad045},
-	eprint = {https://academic.oup.com/sysbio/advance-article-pdf/doi/10.1093/sysbio/syad045/51305994/syad045.pdf},
-	issn = {1063-5157},
-	journal = {Systematic Biology},
-	month = {07},
-	pages = {syad045},
-	title = {{Online tree expansion could help solve the problem of scalability in Bayesian phylogenetics}},
-	url = {https://doi.org/10.1093/sysbio/syad045},
-	year = {2023},
-	Bdsk-Url-1 = {https://doi.org/10.1093/sysbio/syad045}}
-
-@inproceedings{10.1007/978-3-031-30044-8_20,
-	abstract = {Probabilistic Programming Languages (PPLs) allow users to encode statistical inference problems and automatically apply an inference algorithm to solve them. Popular inference algorithms for PPLs, such as sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC), are built around checkpoints---relevant events for the inference algorithm during the execution of a probabilistic program. Deciding the location of checkpoints is, in current PPLs, not done optimally. To solve this problem, we present a static analysis technique that automatically determines checkpoints in programs, relieving PPL users of this task. The analysis identifies a set of checkpoints that execute in the same order in every program run---they are aligned. We formalize alignment, prove the correctness of the analysis, and implement the analysis as part of the higher-order functional PPL Miking CorePPL. By utilizing the alignment analysis, we design two novel inference algorithm variants: aligned SMC and aligned lightweight MCMC. We show, through real-world experiments, that they significantly improve inference execution time and accuracy compared to standard PPL versions of SMC and MCMC.},
-	address = {Cham},
-	author = {Lund{\'e}n, Daniel and {\c{C}}aylak, Gizem and Ronquist, Fredrik and Broman, David},
-	booktitle = {Programming Languages and Systems},
-	date-added = {2023-09-13 13:03:24 +0200},
-	date-modified = {2023-09-13 13:03:24 +0200},
-	editor = {Wies, Thomas},
-	isbn = {978-3-031-30044-8},
-	pages = {535--563},
-	publisher = {Springer Nature Switzerland},
-	title = {Automatic Alignment in Higher-Order Probabilistic Programming Languages},
-	year = {2023}}
-
-@article{https://doi.org/10.1111/2041-210X.14073,
-	abstract = {Abstract Metabarcoding (high-throughput sequencing of marker gene amplicons) has emerged as a promising and cost-effective method for characterizing insect community samples. Yet, the methodology varies greatly among studies and its performance has not been systematically evaluated to date. In particular, it is unclear how accurately metabarcoding can resolve species communities in terms of presence-absence, abundance and biomass. Here we use mock community experiments and a simple probabilistic model to evaluate the effect of different DNA extraction protocols on metabarcoding performance. Specifically, we ask four questions: (Q1) How consistent are the recovered community profiles across replicate mock communities?; (Q2) How does the choice of lysis buffer affect the recovery of the original community?; (Q3) How are community estimates affected by differing lysis times and homogenization? and (Q4) Is it possible to obtain adequate species abundance estimates through the use of biological spike-ins? We show that estimates are quite variable across community replicates. In general, a mild lysis protocol is better at reconstructing species lists and approximate counts, while homogenization is better at retrieving biomass composition. Small insects are more likely to be detected in lysates, while some tough species require homogenization to be detected. Results are less consistent across biological replicates for lysates than for homogenates. Some species are associated with strong PCR amplification bias, which complicates the reconstruction of species counts. Yet, with adequate spike-in data, species abundance can be determined with roughly 40\% standard error for homogenates, and with roughly 50\% standard error for lysates, under ideal conditions. In the latter case, however, this often requires species-specific reference data, while spike-in data generalize better across species for homogenates. We conclude that a non-destructive, mild lysis approach shows the highest promise for the presence/absence description of the community, while also allowing future morphological or molecular work on the material. However, homogenization protocols perform better for characterizing community composition, in particular in terms of biomass.},
-	author = {Iwaszkiewicz-Eggebrecht, Elzbieta and Granqvist, Emma and Buczek, Mateusz and Prus, Monika and Kudlicka, Jan and Roslin, Tomas and Tack, Ayco J. M. and Andersson, Anders F. and Miraldo, Andreia and Ronquist, Fredrik and {\L}ukasik, Piotr},
-	date-added = {2023-09-13 13:03:24 +0200},
-	date-modified = {2023-09-13 13:03:24 +0200},
-	doi = {https://doi.org/10.1111/2041-210X.14073},
-	eprint = {https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.14073},
-	journal = {Methods in Ecology and Evolution},
-	keywords = {abundance estimation, homogenization, Malaise trap, metabarcoding, mock communities, non-destructive mild lysis, spike-ins},
-	number = {4},
-	pages = {1130-1146},
-	title = {Optimizing insect metabarcoding using replicated mock communities},
-	url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14073},
-	volume = {14},
-	year = {2023},
-	Bdsk-Url-1 = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14073},
-	Bdsk-Url-2 = {https://doi.org/10.1111/2041-210X.14073}}
-
-@article{10.1371/journal.pone.0286272,
-	abstract = {Insects are diverse and sustain essential ecosystem functions, yet remain understudied. Recent reports about declines in insect abundance and diversity have highlighted a pressing need for comprehensive large-scale monitoring. Metabarcoding (high-throughput bulk sequencing of marker gene amplicons) offers a cost-effective and relatively fast method for characterizing insect community samples. However, the methodology applied varies greatly among studies, thus complicating the design of large-scale and repeatable monitoring schemes. Here we describe a non-destructive metabarcoding protocol that is optimized for high-throughput processing of Malaise trap samples and other bulk insect samples. The protocol details the process from obtaining bulk samples up to submitting libraries for sequencing. It is divided into four sections: 1) Laboratory workspace preparation; 2) Sample processing---decanting ethanol, measuring the wet-weight biomass and the concentration of the preservative ethanol, performing non-destructive lysis and preserving the insect material for future work; 3) DNA extraction and purification; and 4) Library preparation and sequencing. The protocol relies on readily available reagents and materials. For steps that require expensive infrastructure, such as the DNA purification robots, we suggest alternative low-cost solutions. The use of this protocol yields a comprehensive assessment of the number of species present in a given sample, their relative read abundances and the overall insect biomass. To date, we have successfully applied the protocol to more than 7000 Malaise trap samples obtained from Sweden and Madagascar. We demonstrate the data yield from the protocol using a small subset of these samples.},
-	author = {Iwaszkiewicz-Eggebrecht, Elzbieta AND {\L}ukasik, Piotr AND Buczek, Mateusz AND Deng, Junchen AND Hartop, Emily A. AND Havn{\aa}s, Harald AND Prus-Frankowska, Monika AND Ugarph, Carina R. AND Viteri, Paulina AND Andersson, Anders F. AND Roslin, Tomas AND Tack, Ayco J. M. AND Ronquist, Fredrik AND Miraldo, Andreia},
-	date-added = {2023-09-13 13:03:24 +0200},
-	date-modified = {2023-09-13 13:03:24 +0200},
-	doi = {10.1371/journal.pone.0286272},
-	journal = {PLOS ONE},
-	month = {07},
-	number = {7},
-	pages = {1-13},
-	publisher = {Public Library of Science},
-	title = {FAVIS: Fast and versatile protocol for non-destructive metabarcoding of bulk insect samples},
-	url = {https://doi.org/10.1371/journal.pone.0286272},
-	volume = {18},
-	year = {2023},
-	Bdsk-Url-1 = {https://doi.org/10.1371/journal.pone.0286272}}
-
-@article{10.1093/sysbio/syac033,
-	abstract = {{New, rapid, accurate, scalable, and cost-effective species discovery and delimitation methods are needed for tackling ``dark taxa,'' here defined as groups for which \\$\\&lt;\\$10\\$\\\\%\\$ of all species are described and the estimated diversity exceeds 1,000 species. Species delimitation for these taxa should be based on multiple data sources (``integrative taxonomy'') but collecting multiple types of data risks impeding a discovery process that is already too slow. We here develop large-scale integrative taxonomy (LIT), an explicit method where preliminary species hypotheses are generated based on inexpensive data that can be obtained quickly and cost-effectively. These hypotheses are then evaluated based on a more expensive type of ``validation data'' that is only obtained for specimens selected based on objective criteria applied to the preliminary species hypotheses. We here use this approach to sort 18,000 scuttle flies (Diptera: Phoridae) into 315 preliminary species hypotheses based on next-generation sequencing barcode (313 bp) clusters (using objective clustering [OC] with a 3\\$\\\\%\\$ threshold). These clusters are then evaluated with morphology as the validation data. We develop quantitative indicators for predicting which barcode clusters are likely to be incongruent with morphospecies by randomly selecting 100 clusters for in-depth validation with morphology. A linear model demonstrates that the best predictors for incongruence between barcode clusters and morphology are maximum p-distance within the cluster and a newly proposed index that measures cluster stability across different clustering thresholds. A test of these indicators using the 215 remaining clusters reveals that these predictors correctly identify all clusters that are incongruent with morphology. In our study, all morphospecies are true or disjoint subsets of the initial barcode clusters so that all incongruence can be eliminated by varying clustering thresholds. This leads to a discussion of when a third data source is needed to resolve incongruent grouping statements. The morphological validation step in our study involved 1,039 specimens (5.8\\$\\\\%\\$ of the total). The formal LIT protocol we propose would only have required the study of 915 (5.1\\$\\\\%\\$: 2.5 specimens per species), as we show that clusters without signatures of incongruence can be validated by only studying two specimens representing the most divergent haplotypes. To test the generality of our results across different barcode clustering techniques, we establish that the levels of incongruence are similar across OC, Automatic Barcode Gap Discovery (ABGD), Poisson Tree Processes (PTP), and Refined Single Linkage (RESL) (used by Barcode of Life Data System to assign Barcode Index Numbers [BINs]). OC and ABGD achieved a maximum congruence score with the morphology of 89\\$\\\\%\\$ while PTP was slightly less effective (84\\$\\\\%\\$). RESL could only be tested for a subset of the specimens because the algorithm is not public. BINs based on 277 of the original 1,714 haplotypes were 86\\$\\\\%\\$ congruent with morphology while the values were 89\\$\\\\%\\$ for OC, 74\\$\\\\%\\$ for PTP, and 72\\$\\\\%\\$ for ABGD. [Biodiversity discovery; dark taxa; DNA barcodes; integrative taxonomy.]}},
-	author = {Hartop, Emily and Srivathsan, Amrita and Ronquist, Fredrik and Meier, Rudolf},
-	date-added = {2023-09-13 13:03:24 +0200},
-	date-modified = {2023-09-13 13:03:24 +0200},
-	doi = {10.1093/sysbio/syac033},
-	eprint = {https://academic.oup.com/sysbio/article-pdf/71/6/1404/46465829/syac033.pdf},
-	issn = {1063-5157},
-	journal = {Systematic Biology},
-	month = {05},
-	number = {6},
-	pages = {1404-1422},
-	title = {{Towards Large-Scale Integrative Taxonomy (LIT): Resolving the Data Conundrum for Dark Taxa}},
-	url = {https://doi.org/10.1093/sysbio/syac033},
-	volume = {71},
-	year = {2022},
-	Bdsk-Url-1 = {https://doi.org/10.1093/sysbio/syac033}}
 
 @inproceedings{10.1007/978-3-030-99336-8_2,
 	address = {Cham},
