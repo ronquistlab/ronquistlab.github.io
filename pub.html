@@ -18,7 +18,117 @@
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="10.1007/978-3-030-99336-8_2">1</a>]
+[<a name="10.1007/978-3-031-30044-8_20">1</a>]
+</td>
+<td class="bibtexitem">
+Daniel Lund&eacute;n, Gizem &Ccedil;aylak, Fredrik Ronquist, and David Broman.
+ Automatic alignment in higher-order probabilistic programming
+  languages.
+ In Thomas Wies, editor, <em>Programming Languages and Systems</em>,
+  pages 535--563, Cham, 2023. Springer Nature Switzerland.
+[&nbsp;<a href="pub_bib.html#10.1007/978-3-031-30044-8_20">bib</a>&nbsp;]
+<blockquote><font size="-1">
+Probabilistic Programming Languages (PPLs) allow users to encode statistical inference problems and automatically apply an inference algorithm to solve them. Popular inference algorithms for PPLs, such as sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC), are built around checkpoints---relevant events for the inference algorithm during the execution of a probabilistic program. Deciding the location of checkpoints is, in current PPLs, not done optimally. To solve this problem, we present a static analysis technique that automatically determines checkpoints in programs, relieving PPL users of this task. The analysis identifies a set of checkpoints that execute in the same order in every program run---they are aligned. We formalize alignment, prove the correctness of the analysis, and implement the analysis as part of the higher-order functional PPL Miking CorePPL. By utilizing the alignment analysis, we design two novel inference algorithm variants: aligned SMC and aligned lightweight MCMC. We show, through real-world experiments, that they significantly improve inference execution time and accuracy compared to standard PPL versions of SMC and MCMC.
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="10.1371/journal.pone.0286272">2</a>]
+</td>
+<td class="bibtexitem">
+Elzbieta Iwaszkiewicz-Eggebrecht, Piotr Lukasik, Mateusz Buczek, Junchen
+  Deng, Emily&nbsp;A. Hartop, Harald Havn&aring;s, Monika Prus-Frankowska, Carina&nbsp;R.
+  Ugarph, Paulina Viteri, Anders&nbsp;F. Andersson, Tomas Roslin, Ayco J.&nbsp;M. Tack,
+  Fredrik Ronquist, and Andreia Miraldo.
+ Favis: Fast and versatile protocol for non-destructive metabarcoding
+  of bulk insect samples.
+ <em>PLOS ONE</em>, 18(7):1--13, 07 2023.
+[&nbsp;<a href="pub_bib.html#10.1371/journal.pone.0286272">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1371/journal.pone.0286272">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1371/journal.pone.0286272">Url</a>&nbsp;]
+<blockquote><font size="-1">
+Insects are diverse and sustain essential ecosystem functions, yet remain understudied. Recent reports about declines in insect abundance and diversity have highlighted a pressing need for comprehensive large-scale monitoring. Metabarcoding (high-throughput bulk sequencing of marker gene amplicons) offers a cost-effective and relatively fast method for characterizing insect community samples. However, the methodology applied varies greatly among studies, thus complicating the design of large-scale and repeatable monitoring schemes. Here we describe a non-destructive metabarcoding protocol that is optimized for high-throughput processing of Malaise trap samples and other bulk insect samples. The protocol details the process from obtaining bulk samples up to submitting libraries for sequencing. It is divided into four sections: 1) Laboratory workspace preparation; 2) Sample processing---decanting ethanol, measuring the wet-weight biomass and the concentration of the preservative ethanol, performing non-destructive lysis and preserving the insect material for future work; 3) DNA extraction and purification; and 4) Library preparation and sequencing. The protocol relies on readily available reagents and materials. For steps that require expensive infrastructure, such as the DNA purification robots, we suggest alternative low-cost solutions. The use of this protocol yields a comprehensive assessment of the number of species present in a given sample, their relative read abundances and the overall insect biomass. To date, we have successfully applied the protocol to more than 7000 Malaise trap samples obtained from Sweden and Madagascar. We demonstrate the data yield from the protocol using a small subset of these samples.
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="https://doi.org/10.1111/2041-210X.14073">3</a>]
+</td>
+<td class="bibtexitem">
+Elzbieta Iwaszkiewicz-Eggebrecht, Emma Granqvist, Mateusz Buczek, Monika Prus,
+  Jan Kudlicka, Tomas Roslin, Ayco J.&nbsp;M. Tack, Anders&nbsp;F. Andersson, Andreia
+  Miraldo, Fredrik Ronquist, and Piotr Lukasik.
+ Optimizing insect metabarcoding using replicated mock communities.
+ <em>Methods in Ecology and Evolution</em>, 14(4):1130--1146, 2023.
+[&nbsp;<a href="pub_bib.html#https://doi.org/10.1111/2041-210X.14073">bib</a>&nbsp;| 
+<a href="https://doi.org/10.1111/2041-210X.14073">DOI</a>&nbsp;| 
+<a href="http://arxiv.org/abs/https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.14073">arXiv</a>&nbsp;| 
+<a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14073">Url</a>&nbsp;]
+<blockquote><font size="-1">
+Abstract Metabarcoding (high-throughput sequencing of marker gene amplicons) has emerged as a promising and cost-effective method for characterizing insect community samples. Yet, the methodology varies greatly among studies and its performance has not been systematically evaluated to date. In particular, it is unclear how accurately metabarcoding can resolve species communities in terms of presence-absence, abundance and biomass. Here we use mock community experiments and a simple probabilistic model to evaluate the effect of different DNA extraction protocols on metabarcoding performance. Specifically, we ask four questions: (Q1) How consistent are the recovered community profiles across replicate mock communities?; (Q2) How does the choice of lysis buffer affect the recovery of the original community?; (Q3) How are community estimates affected by differing lysis times and homogenization? and (Q4) Is it possible to obtain adequate species abundance estimates through the use of biological spike-ins? We show that estimates are quite variable across community replicates. In general, a mild lysis protocol is better at reconstructing species lists and approximate counts, while homogenization is better at retrieving biomass composition. Small insects are more likely to be detected in lysates, while some tough species require homogenization to be detected. Results are less consistent across biological replicates for lysates than for homogenates. Some species are associated with strong PCR amplification bias, which complicates the reconstruction of species counts. Yet, with adequate spike-in data, species abundance can be determined with roughly 40% standard error for homogenates, and with roughly 50% standard error for lysates, under ideal conditions. In the latter case, however, this often requires species-specific reference data, while spike-in data generalize better across species for homogenates. We conclude that a non-destructive, mild lysis approach shows the highest promise for the presence/absence description of the community, while also allowing future morphological or molecular work on the material. However, homogenization protocols perform better for characterizing community composition, in particular in terms of biomass.
+</font></blockquote>
+<blockquote><font size="-1">
+Keywords: abundance estimation, homogenization, Malaise trap, metabarcoding, mock communities, non-destructive mild lysis, spike-ins
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="10.1093/sysbio/syad045">4</a>]
+</td>
+<td class="bibtexitem">
+Jakub Truszkowski, Allison Perrigo, David Broman, Fredrik Ronquist, and
+  Alexandre Antonelli.
+ Online tree expansion could help solve the problem of scalability in
+  Bayesian phylogenetics.
+ <em>Systematic Biology</em>, page syad045, 07 2023.
+[&nbsp;<a href="pub_bib.html#10.1093/sysbio/syad045">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1093/sysbio/syad045">DOI</a>&nbsp;| 
+<a href="http://arxiv.org/abs/https://academic.oup.com/sysbio/advance-article-pdf/doi/10.1093/sysbio/syad045/51305994/syad045.pdf">arXiv</a>&nbsp;| 
+<a href="https://doi.org/10.1093/sysbio/syad045">Url</a>&nbsp;]
+<blockquote><font size="-1">
+Bayesian phylogenetics is now facing a critical point. Over the last 20 years, Bayesian methods have reshaped phylogenetic inference and gained widespread popularity due to their high accuracy, the ability to quantify the uncertainty of inferences and the possibility of accommodating multiple aspects of evolutionary processes in the models that are used. Unfortunately, Bayesian methods are computationally expensive, and typical applications involve at most a few hundred sequences. This is problematic in the age of rapidly expanding genomic data and increasing scope of evolutionary analyses, forcing researchers to resort to less accurate but faster methods, such as maximum parsimony and maximum likelihood. Does this spell doom for Bayesian methods? Not necessarily. Here, we discuss some recently proposed approaches that could help scale up Bayesian analyses of evolutionary problems considerably. We focus on two particular aspects: online phylogenetics, where new data sequences are added to existing analyses, and alternatives to Markov chain Monte Carlo (MCMC) for scalable Bayesian inference. We identify 5 specific challenges and discuss how they might be overcome. We believe that online phylogenetic approaches and Sequential Monte Carlo hold great promise and could potentially speed up tree inference by orders of magnitude. We call for collaborative efforts to speed up the development of methods for real-time tree expansion through online phylogenetics.
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="10.1093/sysbio/syac033">5</a>]
+</td>
+<td class="bibtexitem">
+Emily Hartop, Amrita Srivathsan, Fredrik Ronquist, and Rudolf Meier.
+ Towards Large-Scale Integrative Taxonomy (LIT): Resolving the Data
+  Conundrum for Dark Taxa.
+ <em>Systematic Biology</em>, 71(6):1404--1422, 05 2022.
+[&nbsp;<a href="pub_bib.html#10.1093/sysbio/syac033">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1093/sysbio/syac033">DOI</a>&nbsp;| 
+<a href="http://arxiv.org/abs/https://academic.oup.com/sysbio/article-pdf/71/6/1404/46465829/syac033.pdf">arXiv</a>&nbsp;| 
+<a href="https://doi.org/10.1093/sysbio/syac033">Url</a>&nbsp;]
+<blockquote><font size="-1">
+New, rapid, accurate, scalable, and cost-effective species discovery and delimitation methods are needed for tackling &ldquo;dark taxa,&rdquo; here defined as groups for which <br><br>&<em>lt</em>;<br>10<br><br><br>%<br> of all species are described and the estimated diversity exceeds 1,000 species. Species delimitation for these taxa should be based on multiple data sources (&ldquo;integrative taxonomy&rdquo;) but collecting multiple types of data risks impeding a discovery process that is already too slow. We here develop large-scale integrative taxonomy (LIT), an explicit method where preliminary species hypotheses are generated based on inexpensive data that can be obtained quickly and cost-effectively. These hypotheses are then evaluated based on a more expensive type of &ldquo;validation data&rdquo; that is only obtained for specimens selected based on objective criteria applied to the preliminary species hypotheses. We here use this approach to sort 18,000 scuttle flies (Diptera: Phoridae) into 315 preliminary species hypotheses based on next-generation sequencing barcode (313 bp) clusters (using objective clustering [OC] with a 3<br><br><br>%<br> threshold). These clusters are then evaluated with morphology as the validation data. We develop quantitative indicators for predicting which barcode clusters are likely to be incongruent with morphospecies by randomly selecting 100 clusters for in-depth validation with morphology. A linear model demonstrates that the best predictors for incongruence between barcode clusters and morphology are maximum p-distance within the cluster and a newly proposed index that measures cluster stability across different clustering thresholds. A test of these indicators using the 215 remaining clusters reveals that these predictors correctly identify all clusters that are incongruent with morphology. In our study, all morphospecies are true or disjoint subsets of the initial barcode clusters so that all incongruence can be eliminated by varying clustering thresholds. This leads to a discussion of when a third data source is needed to resolve incongruent grouping statements. The morphological validation step in our study involved 1,039 specimens (5.8<br><br><br>%<br> of the total). The formal LIT protocol we propose would only have required the study of 915 (5.1<br><br><br>%<br>: 2.5 specimens per species), as we show that clusters without signatures of incongruence can be validated by only studying two specimens representing the most divergent haplotypes. To test the generality of our results across different barcode clustering techniques, we establish that the levels of incongruence are similar across OC, Automatic Barcode Gap Discovery (ABGD), Poisson Tree Processes (PTP), and Refined Single Linkage (RESL) (used by Barcode of Life Data System to assign Barcode Index Numbers [BINs]). OC and ABGD achieved a maximum congruence score with the morphology of 89<br><br><br>%<br> while PTP was slightly less effective (84<br><br><br>%<br>). RESL could only be tested for a subset of the specimens because the algorithm is not public. BINs based on 277 of the original 1,714 haplotypes were 86<br><br><br>%<br> congruent with morphology while the values were 89<br><br><br>%<br> for OC, 74<br><br><br>%<br> for PTP, and 72<br><br><br>%<br> for ABGD. [Biodiversity discovery; dark taxa; DNA barcodes; integrative taxonomy.]
+</font></blockquote>
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="10.1007/978-3-030-99336-8_2">6</a>]
 </td>
 <td class="bibtexitem">
 Daniel Lund&eacute;n, Joey &Ouml;hman, Jan Kudlicka, Viktor Senderov, Fredrik
@@ -38,7 +148,7 @@ Daniel Lund&eacute;n, Joey &Ouml;hman, Jan Kudlicka, Viktor Senderov, Fredrik
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="braga2021phylogenetic">2</a>]
+[<a name="braga2021phylogenetic">7</a>]
 </td>
 <td class="bibtexitem">
 Mariana&nbsp;P. Braga, Niklas Janz, S&ouml;ren Nylin, Fredrik Ronquist, and
@@ -57,7 +167,7 @@ Mariana&nbsp;P. Braga, Niklas Janz, S&ouml;ren Nylin, Fredrik Ronquist, and
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="valan2021awakening">3</a>]
+[<a name="valan2021awakening">8</a>]
 </td>
 <td class="bibtexitem">
 Miroslav Valan, Dominik Vondr&aacute;&#x010D;ek, and Fredrik Ronquist.
@@ -75,7 +185,7 @@ Miroslav Valan, Dominik Vondr&aacute;&#x010D;ek, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="Hartop1544804">4</a>]
+[<a name="Hartop1544804">9</a>]
 </td>
 <td class="bibtexitem">
 Emily Hartop.
@@ -92,7 +202,7 @@ Emily Hartop.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="hartop2021large">5</a>]
+[<a name="hartop2021large">10</a>]
 </td>
 <td class="bibtexitem">
 Emily Hartop, Amrita Srivathsan, Fredrik Ronquist, and Rudolf Meier.
@@ -110,7 +220,7 @@ Emily Hartop, Amrita Srivathsan, Fredrik Ronquist, and Rudolf Meier.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="valan2021automated">6</a>]
+[<a name="valan2021automated">11</a>]
 </td>
 <td class="bibtexitem">
 Miroslav Valan.
@@ -127,7 +237,7 @@ Miroslav Valan.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ronquist2021universal">7</a>]
+[<a name="ronquist2021universal">12</a>]
 </td>
 <td class="bibtexitem">
 Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgstr&ouml;m,
@@ -147,7 +257,7 @@ Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgstr&ouml;m,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="arribas2021connecting">8</a>]
+[<a name="arribas2021connecting">13</a>]
 </td>
 <td class="bibtexitem">
 Paula Arribas, Carmelo And&uacute;jar, Martin&nbsp;I. Bidartondo, Kristine Bohmann,
@@ -170,7 +280,7 @@ Paula Arribas, Carmelo And&uacute;jar, Martin&nbsp;I. Bidartondo, Kristine Bohma
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="hartop2021scuttling">9</a>]
+[<a name="hartop2021scuttling">14</a>]
 </td>
 <td class="bibtexitem">
 Emily Hartop, Sibylle H&auml;ggqvist, Sven&nbsp;Olof Ulefors, and Fredrik Ronquist.
@@ -187,7 +297,7 @@ Emily Hartop, Sibylle H&auml;ggqvist, Sven&nbsp;Olof Ulefors, and Fredrik Ronqui
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="marquina2021effect">10</a>]
+[<a name="marquina2021effect">15</a>]
 </td>
 <td class="bibtexitem">
 Daniel Marquina, Mateusz Buczek, Fredrik Ronquist, and Piotr Lukasik.
@@ -204,7 +314,7 @@ Daniel Marquina, Mateusz Buczek, Fredrik Ronquist, and Piotr Lukasik.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="braga2020bayesian">11</a>]
+[<a name="braga2020bayesian">16</a>]
 </td>
 <td class="bibtexitem">
 Mariana&nbsp;P Braga, Michael&nbsp;J Landis, S&ouml;ren Nylin, Niklas Janz, and Fredrik
@@ -222,7 +332,7 @@ Mariana&nbsp;P Braga, Michael&nbsp;J Landis, S&ouml;ren Nylin, Niklas Janz, and 
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ronquist2020completing">12</a>]
+[<a name="ronquist2020completing">17</a>]
 </td>
 <td class="bibtexitem">
 Fredrik Ronquist, Mattias Forshage, Sibylle H&auml;ggqvist, Dave Karlsson,
@@ -241,7 +351,7 @@ Fredrik Ronquist, Mattias Forshage, Sibylle H&auml;ggqvist, Dave Karlsson,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="kudlicka2020probabilistic">13</a>]
+[<a name="kudlicka2020probabilistic">18</a>]
 </td>
 <td class="bibtexitem">
 Jan Kudlicka, Lawrence&nbsp;M Murray, Fredrik Ronquist, and Thomas&nbsp;B Sch&ouml;n.
@@ -258,7 +368,7 @@ Jan Kudlicka, Lawrence&nbsp;M Murray, Fredrik Ronquist, and Thomas&nbsp;B Sch&ou
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="zhang2020using">14</a>]
+[<a name="zhang2020using">19</a>]
 </td>
 <td class="bibtexitem">
 Chi Zhang, John&nbsp;P Huelsenbeck, and Fredrik Ronquist.
@@ -275,7 +385,7 @@ Chi Zhang, John&nbsp;P Huelsenbeck, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="karlsson2020data">15</a>]
+[<a name="karlsson2020data">20</a>]
 </td>
 <td class="bibtexitem">
 Dave Karlsson, Mattias Forshage, Kevin Holston, and Fredrik Ronquist.
@@ -292,7 +402,7 @@ Dave Karlsson, Mattias Forshage, Kevin Holston, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="karlsson2020swedish">16</a>]
+[<a name="karlsson2020swedish">21</a>]
 </td>
 <td class="bibtexitem">
 Dave Karlsson, Emily Hartop, Mattias Forshage, Mathias Jaschhof, and Fredrik
@@ -310,7 +420,7 @@ Dave Karlsson, Emily Hartop, Mattias Forshage, Mathias Jaschhof, and Fredrik
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="marquina2020thesis">17</a>]
+[<a name="marquina2020thesis">22</a>]
 </td>
 <td class="bibtexitem">
 Daniel Marquina&nbsp;Hern&aacute;ndez.
@@ -326,7 +436,7 @@ Daniel Marquina&nbsp;Hern&aacute;ndez.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ronquist2020probabilistic">18</a>]
+[<a name="ronquist2020probabilistic">23</a>]
 </td>
 <td class="bibtexitem">
 Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgstr&ouml;m,
@@ -346,7 +456,7 @@ Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgstr&ouml;m,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="gobbo2020inquilines">19</a>]
+[<a name="gobbo2020inquilines">24</a>]
 </td>
 <td class="bibtexitem">
 Erik Gobbo, Nicolas Lartillot, Jack Hearn, Graham&nbsp;N Stone, Yoshihisa Abe,
@@ -364,7 +474,7 @@ Erik Gobbo, Nicolas Lartillot, Jack Hearn, Graham&nbsp;N Stone, Yoshihisa Abe,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="glockler2019dina">20</a>]
+[<a name="glockler2019dina">25</a>]
 </td>
 <td class="bibtexitem">
 Falko Gl&ouml;ckler, James Macklin, Fredrik Ronquist, and Jana Hoffmann.
@@ -381,7 +491,7 @@ Falko Gl&ouml;ckler, James Macklin, Fredrik Ronquist, and Jana Hoffmann.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="marquina2019new">21</a>]
+[<a name="marquina2019new">26</a>]
 </td>
 <td class="bibtexitem">
 Daniel Marquina, Anders&nbsp;F Andersson, and Fredrik Ronquist.
@@ -398,7 +508,7 @@ Daniel Marquina, Anders&nbsp;F Andersson, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="marquina2019establishing">22</a>]
+[<a name="marquina2019establishing">27</a>]
 </td>
 <td class="bibtexitem">
 Daniel Marquina, Rodrigo Esparza-Salas, Tomas Roslin, and Fredrik Ronquist.
@@ -416,7 +526,7 @@ Daniel Marquina, Rodrigo Esparza-Salas, Tomas Roslin, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="valan2019automated">23</a>]
+[<a name="valan2019automated">28</a>]
 </td>
 <td class="bibtexitem">
 Miroslav Valan, Karoly Makonyi, Atsuto Maki, Dominik Vondr&aacute;&#x010D;ek, and
@@ -434,7 +544,7 @@ Miroslav Valan, Karoly Makonyi, Atsuto Maki, Dominik Vondr&aacute;&#x010D;ek, an
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="braga2019evolution">24</a>]
+[<a name="braga2019evolution">29</a>]
 </td>
 <td class="bibtexitem">
 Mariana&nbsp;Pires Braga.
@@ -451,7 +561,7 @@ Mariana&nbsp;Pires Braga.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="lunden2018automatic">25</a>]
+[<a name="lunden2018automatic">30</a>]
 </td>
 <td class="bibtexitem">
 Daniel Lund&eacute;n, David Broman, Fredrik Ronquist, and Lawrence&nbsp;M Murray.
@@ -467,7 +577,7 @@ Daniel Lund&eacute;n, David Broman, Fredrik Ronquist, and Lawrence&nbsp;M Murray
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="macklin2018general">26</a>]
+[<a name="macklin2018general">31</a>]
 </td>
 <td class="bibtexitem">
 James Macklin, Markus Englund, Falko Gl&ouml;ckler, Mikko Heikkinen, Jana
@@ -484,7 +594,7 @@ James Macklin, Markus Englund, Falko Gl&ouml;ckler, Mikko Heikkinen, Jana
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ronquist2018life">27</a>]
+[<a name="ronquist2018life">32</a>]
 </td>
 <td class="bibtexitem">
 Fredrik Ronquist, Johan Nylander, Hege V&aring;rdal, and Jos&eacute;&nbsp;Luis
@@ -502,7 +612,7 @@ Fredrik Ronquist, Johan Nylander, Hege V&aring;rdal, and Jos&eacute;&nbsp;Luis
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="hovmoller2017streckkodning">28</a>]
+[<a name="hovmoller2017streckkodning">33</a>]
 </td>
 <td class="bibtexitem">
 Rasmus Hovm&ouml;ller, Mattias Forshage, and Fredrik Ronquist.
@@ -519,7 +629,7 @@ Rasmus Hovm&ouml;ller, Mattias Forshage, and Fredrik Ronquist.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="macklin2017dina">29</a>]
+[<a name="macklin2017dina">34</a>]
 </td>
 <td class="bibtexitem">
 James Macklin, Falko Gl&ouml;ckler, Jana Hoffmann, Fredrik Ronquist, Stefan
