@@ -1038,7 +1038,7 @@ input[type="button"]:disabled,
 
 #banner-people {
     background-color: #666666;
-    background-image: url("../images/Lab_2025_crop.jpg");
+    background-image: url("../images/Lab_2025.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1046,7 +1046,7 @@ input[type="button"]:disabled,
     padding: 14em 0;
     text-align: center;
     position: relative;
-    width: 1400px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
